@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/grad_bck"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:textColor="@color/blanco"
+            android:text="@string/xper_title"
+            android:layout_gravity="center_horizontal"
+            android:textSize="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <ScrollView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+        <EditText
+                android:id="@+id/txtCode"
+                android:hint="@string/hint_code"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/blanco"
+                android:background="@drawable/roundedbutton"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </ScrollView>
+
+    <ScrollView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+        <EditText
+                android:id="@+id/txtRes"
+                android:hint="@string/txt_results"
+                android:editable="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/blanco"
+                android:background="@drawable/roundedbutton"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </ScrollView>
+
+    <Button
+            android:textColor="@color/blanco"
+            android:text="@string/btn_run"
+            android:onClick="run"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

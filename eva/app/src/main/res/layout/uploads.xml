@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/grad_bck"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:textColor="@color/blanco"
+            android:text="@string/upl_title"
+            android:layout_gravity="center_horizontal"
+            android:textSize="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:hint="@string/up_txt_title"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:inputType="text"
+            android:textColor="@color/blanco"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="350dp"
+            android:maxLines="1"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:hint="@string/up_txt_description"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/blanco"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"/>
+
+    <ScrollView
+            android:layout_marginTop="35dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        <EditText
+                android:hint="@string/hint_code"
+                android:textColor="@color/blanco"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/roundedbutton"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </ScrollView>
+
+    <Button
+            android:textColor="@color/blanco"
+            android:text="@string/btn_uplCode"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

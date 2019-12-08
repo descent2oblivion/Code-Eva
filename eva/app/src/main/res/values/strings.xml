@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EVA</string>
+    <string name="main_title">EVA Code</string>
+    <string name="btn_learn">Learn!</string>
+    <string name="btn_upCode">Upload code!</string>
+    <string name="btn_experiment">Experiment!</string>
+    <string name="btn_about">About?</string>
+
+    <string name="lz_title">Learning zone</string>
+
+    <string name="upl_title">Create lesson</string>
+    <string name="up_txt_title">Title</string>
+    <string name="up_txt_description">Description</string>
+    <string name="hint_code">Code</string>
+    <string name="btn_uplCode">Upload!</string>
+
+    <string name="xper_title">Experiment</string>
+    <string name="txt_results">Results</string>
+    <string name="btn_run">Run code</string>
+
+</resources>

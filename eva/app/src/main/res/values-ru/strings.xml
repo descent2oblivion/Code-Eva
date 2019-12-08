@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EVA</string>
+    <string name="main_title">Код EVA</string>
+    <string name="btn_learn">Учиться!</string>
+    <string name="btn_upCode">Загрузить код!</string>
+    <string name="btn_experiment">Эксперимент!</string>
+    <string name="btn_about">Около?</string>
+
+    <string name="lz_title">Зона обучения</string>
+
+    <string name="upl_title">Создать урок</string>
+    <string name="up_txt_title">Название</string>
+    <string name="up_txt_description">Описание</string>
+    <string name="hint_code">Код</string>
+    <string name="btn_uplCode">Загрузить!</string>
+
+    <string name="xper_title">Эксперимент</string>
+    <string name="txt_results">Результаты</string>
+    <string name="btn_run">Выполнить код</string>
+</resources>
