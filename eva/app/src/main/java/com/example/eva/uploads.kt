@@ -29,7 +29,7 @@ class  uploads : AppCompatActivity() {
                 CodigoInput.text.toString()
             )
             db.addCode(cd)
-            Toast.makeText(this,"Echo",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,R.string.code_uploaded,Toast.LENGTH_SHORT).show()
         }
 
 

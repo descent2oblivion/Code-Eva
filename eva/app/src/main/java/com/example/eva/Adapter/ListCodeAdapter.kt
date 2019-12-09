@@ -3,6 +3,7 @@ package com.example.eva.Adapter
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -35,20 +36,22 @@ class ListCodeAdapter (internal var activity: Activity,
         rowView.txt_Id.text = lstCode[position].id.toString()
         rowView.txt_Titulo.text = lstCode[position].titulo.toString()
         rowView.txt_Descripcion.text = lstCode[position].descripcion.toString()
-       // rowView.txtCode.text = lstCode[position].codigo.toString()
+        rowView.codeee.text = lstCode[position].codigo.toString()
 
         rowView.setOnClickListener(){
 
-            var tx = rowView.txt_Id.text.toString()  //id del codigo
+            var tx = rowView.codeee.text.toString()  //id del codigo
 
             //var codigo = select codigo from tabla where id_codigo = tx
             var ctx = convertView?.context
-            var i = Intent(ctx, xper::class.java)
+            var i = Intent(ctx, xper::class.java).apply {
+                putExtra(EXTRA_MESSAGE, tx)
+            }
             //i.putExtra(codigo, "cd")
             //y cargar el extra en el txtCode de la ventana xper
 
             if (ctx != null) {
-                Toast.makeText(ctx, tx, Toast.LENGTH_LONG).show()
+                //Toast.makeText(ctx, tx, Toast.LENGTH_LONG).show()
                 startActivity(ctx, i, null)
             }
         }

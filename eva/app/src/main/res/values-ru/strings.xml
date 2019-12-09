@@ -13,8 +13,11 @@
     <string name="up_txt_description">Описание</string>
     <string name="hint_code">Код</string>
     <string name="btn_uplCode">Загрузить!</string>
+    <string name="code_uploaded">Код загружен!</string>
 
     <string name="xper_title">Эксперимент</string>
     <string name="txt_results">Результаты</string>
     <string name="btn_run">Выполнить код</string>
+
+    <string name="about">Код везде и всегда!</string>
 </resources>

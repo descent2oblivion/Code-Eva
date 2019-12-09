@@ -29,6 +29,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun ab(view: View){
-        Toast.makeText(this, "Ventana de about", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, R.string.about, Toast.LENGTH_SHORT).show()
     }
 }

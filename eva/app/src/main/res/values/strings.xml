@@ -13,9 +13,11 @@
     <string name="up_txt_description">Description</string>
     <string name="hint_code">Code</string>
     <string name="btn_uplCode">Upload!</string>
+    <string name="code_uploaded">Code uploaded!</string>
 
     <string name="xper_title">Experiment</string>
     <string name="txt_results">Results</string>
     <string name="btn_run">Run code</string>
 
+    <string name="about">Code everywhere at all times!</string>
 </resources>

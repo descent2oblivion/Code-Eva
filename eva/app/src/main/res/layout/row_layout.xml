@@ -38,5 +38,13 @@
             android:textSize="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-
+    <TextView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/codeee"
+            android:text="Eddy"
+            android:textColor="@color/blanco"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
 </LinearLayout>

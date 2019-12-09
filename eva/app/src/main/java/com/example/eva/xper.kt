@@ -3,9 +3,11 @@ package com.example.eva
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.text.Editable
 import android.util.Log
 import android.view.View
+import android.widget.EditText
 import android.widget.Toast
 import kotlinx.android.synthetic.main.xper.*
 import org.jetbrains.anko.alert
@@ -21,6 +23,14 @@ class xper : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.xper)
+
+        try{
+            val message = intent.getStringExtra(EXTRA_MESSAGE) as String
+            txtCode.setText(message)
+        }
+        catch(e: Exception){
+
+        }
     }
 
     fun ran(view : View){
